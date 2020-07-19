@@ -1,0 +1,21 @@
+{
+  "name": "nodelogger",
+  "version": "1.0.0",
+  "description": "Logging Api Wrriten in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Greg Brooks",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.2.0",
+    "validator": "^13.1.1"
+  }
+}
